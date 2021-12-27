@@ -1,0 +1,34 @@
+
+
+
+   .login_register {  
+		        
+		        margin: 50px auto;
+		        text-align: center;
+		        width:300px;
+		        border:1px solid black;   
+
+	 }
+		
+	.link-normal {
+		     text-decoration:none;   
+	 }
+	button {
+		     background-color: #B12762;
+		        border: none;
+		        color: white;
+		        padding: 7px 30px;
+	}
+		    
+	 button:hover{
+		        background-color: #0CF770;
+	}
+		    
+	.login p {
+		       display: inline;
+	 }
+
+     .error {
+        color: red;
+     }
+   

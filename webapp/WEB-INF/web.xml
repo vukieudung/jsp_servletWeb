@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ 
+
+  <servlet>
+    <servlet-name>Controller</servlet-name>
+    <servlet-class>beans.Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controller</servlet-name>
+    <url-pattern>/Controller</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>5000</session-timeout>
+  </session-config>
+  <servlet>
+    <servlet-name>SearchController</servlet-name>
+    <servlet-class>controller.SearchController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchController</servlet-name>
+    <url-pattern>/SearchController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>InformationProductController</servlet-name>
+    <servlet-class>controller.InformationProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InformationProductController</servlet-name>
+    <url-pattern>/InformationProductController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProductListController</servlet-name>
+    <servlet-class>controller.ProductListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductListController</servlet-name>
+    <url-pattern>/ProductListController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddToCartController</servlet-name>
+    <servlet-class>controller.AddToCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddToCartController</servlet-name>
+    <url-pattern>/AddToCartController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PayController</servlet-name>
+    <servlet-class>controller.PayController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PayController</servlet-name>
+    <url-pattern>/PayController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>controller.RegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+</web-app>

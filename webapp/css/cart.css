@@ -1,0 +1,58 @@
+.content {
+  border: 1px solid #EFEFEF;
+  background-color: #EFEFEF;
+  padding:0px;
+}
+
+table{  
+  margin:25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+} 
+
+
+caption {
+  display:block;
+  font-size: 25px;
+  color: #DE1F47;
+}
+
+button {
+		     background-color: #B12762;
+		        border: none;
+		        color: white;
+		        padding: 7px 30px;
+}
+		    
+button:hover{
+		        background-color: #0CF770;
+}
+
+.last_row{
+	text-align:right;
+	color: red;
+}
+
+.payOrder {
+    margin:25px;
+}
+
+.payOrder button {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #281FDE;
+	color: white;
+	 padding: 7px 30px;
+}
+
+.payOrder button:hover {
+    background-color: #0CF770;
+}

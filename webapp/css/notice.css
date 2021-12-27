@@ -1,0 +1,13 @@
+.content {
+  border: 1px solid #EFEFEF;
+  background-color: #EFEFEF;
+  margin:0px;
+  padding:0px;
+}
+
+.content h3 {
+
+color: #DE1F3A;
+padding: 100px;
+text-align: center;
+}

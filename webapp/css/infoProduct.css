@@ -1,0 +1,41 @@
+
+.infoProduct {
+   padding: 20px;
+
+}
+img{
+width:100%;
+}
+
+table {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-size: 20px;
+}
+.col1 {
+	width:40%;
+}
+
+.col2 {
+	width:60%;
+	padding:20px;	
+}
+
+.price {
+    color: #DE1F5C;
+}
+
+button {
+		     background-color: #B12762;
+		        border: none;
+		        color: white;
+		        padding: 7px 30px;
+}
+		    
+button:hover{
+		        background-color: #0CF770;
+}
